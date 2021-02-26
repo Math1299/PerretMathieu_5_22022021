@@ -67,13 +67,111 @@
         </nav>
       </div>
     </div>
-    <main class="container">
+    <main class="container" #mainContainer>
       <!-- SECTION CENTRALE -->
-      <div class="container" id="section1">
+      <div class="container" id="titleMainContainer">
         <div class="row">
           <div class="col">
             <h1 class="text-center mt-5 font-weight-bold">Bienvenue</h1>
             <p>Voici notre gamme d'appareil photo vintage:</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5" id="listContainer">
+        <div class="row">
+          <div class="col">
+            <ul class="list-group shadow">
+              <li class="list-group-item d-flex justify-content-between px-5">
+                <img
+                  id="camImg"
+                  class="rounded"
+                  src="http://localhost:3000/images/vcam_1.jpg"
+                  alt="Appareil photo Zurss 50S"
+                  width="120px"
+                  height="75px"
+                />
+                <p id="camName" class="mt-4 d-none d-sm-block font-weight-bold">
+                  Zurss 50S
+                </p>
+                <button type="button" class="btn btn-outline-primary btn-prod">
+                  <a class="text-dark" href="./pages/produits.html">
+                    Voir le produit</a
+                  >
+                </button>
+              </li>
+              <li class="list-group-item d-flex justify-content-between px-5">
+                <img
+                  id="camImg"
+                  class="rounded"
+                  src="http://localhost:3000/images/vcam_2.jpg"
+                  alt="Appareil photo Zurss 50S"
+                  width="120px"
+                  height="75px"
+                />
+                <p id="camName" class="mt-4 d-none d-sm-block font-weight-bold">
+                  Hirsch 400DTS
+                </p>
+                <button type="button" class="btn btn-outline-primary btn-prod">
+                  <a class="text-dark" href="./pages/produits.html">
+                    Voir le produit</a
+                  >
+                </button>
+              </li>
+              <li class="list-group-item d-flex justify-content-between px-5">
+                <img
+                  id="camImg"
+                  class="rounded"
+                  src="http://localhost:3000/images/vcam_3.jpg"
+                  alt="Appareil photo Zurss 50S"
+                  width="120px"
+                  height="75px"
+                />
+                <p id="camName" class="mt-4 d-none d-sm-block font-weight-bold">
+                  Franck JS 105
+                </p>
+                <button type="button" class="btn btn-outline-primary btn-prod">
+                  <a class="text-dark" href="./pages/produits.html">
+                    Voir le produit</a
+                  >
+                </button>
+              </li>
+              <li class="list-group-item d-flex justify-content-between px-5">
+                <img
+                  id="camImg"
+                  class="rounded"
+                  src="http://localhost:3000/images/vcam_4.jpg"
+                  alt="Appareil photo Zurss 50S"
+                  width="120px"
+                  height="75px"
+                />
+                <p id="camName" class="mt-4 d-none d-sm-block font-weight-bold">
+                  Kuros TTS
+                </p>
+                <button type="button" class="btn btn-outline-primary btn-prod">
+                  <a class="text-dark" href="./pages/produits.html">
+                    Voir le produit</a
+                  >
+                </button>
+              </li>
+              <li class="list-group-item d-flex justify-content-between px-5">
+                <img
+                  id="camImg"
+                  class="rounded"
+                  src="http://localhost:3000/images/vcam_5.jpg"
+                  alt="Appareil photo Zurss 50S"
+                  width="120px"
+                  height="75px"
+                />
+                <p id="camName" class="mt-4 d-none d-sm-block font-weight-bold">
+                  Katatone
+                </p>
+                <button type="button" class="btn btn-outline-primary btn-prod">
+                  <a class="text-dark" href="./pages/produits.html">
+                    Voir le produit</a
+                  >
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -92,7 +190,6 @@
             </li>
             <li class="list-inline-item"><a href="#">Contact</a></li>
           </ul>
-          <!-- <p class="mt-2">Copyright &copy; 2021 Orinoco</p> -->
         </footer>
       </div>
     </div>
