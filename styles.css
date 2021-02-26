@@ -37,3 +37,9 @@ a:hover {
   line-height: 0.9;
   margin-left: 5px;
 }
+.card {
+  border-radius: 20px;
+}
+.card-img-top {
+  border-radius: 20px;
+}
